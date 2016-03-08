@@ -1,0 +1,5 @@
+name: Jim Cadden
+url: jmcadden.github.io
+highlighter: rouge
+exclude: [vendor]
+timezone: America/New_York
