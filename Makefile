@@ -5,8 +5,8 @@ SPACE:=$(NOP) $(NOP)
 TEMPLATE := _template
 POST := _posts
 POST_TEMPLATE := $(TEMPLATE)/head
-TIMESTAMP := $(shell date +%Y.%m.%d)
-FILENAME:=$(POST)/$(TIMESTAMP)_$(subst $(SPACE),_,$(TITLE)).md
+TIMESTAMP := $(shell date +%Y-%m-%d)
+FILENAME:=$(POST)/$(TIMESTAMP)-$(subst $(SPACE),_,$(TITLE)).md
 
 .PHONY: build serve update clean
 

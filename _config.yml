@@ -1,5 +1,17 @@
 name: Jim Cadden
 url: jmcadden.github.io
+title: Jim Cadden
+email: james.cadden@gmail.com 
+tagline: 'has his very own tagline'
 highlighter: rouge
 exclude: [vendor]
 timezone: America/New_York
+permalink:           pretty
+
+# Setup
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 https://jmcadden.github.io
+baseurl:             ''
+paginate:            5
+version:             1.0.0
+gems: [jekyll-paginate]
