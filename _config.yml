@@ -7,11 +7,9 @@ highlighter: rouge
 exclude: [vendor]
 timezone: America/New_York
 permalink:           pretty
-
-# Setup
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'Jim is a PhD canidate in Computer Science <a href="">Boston University</a> under the advisement of <a href="">Jonathan Appavoo</a>. Jim is a member of the SESA (scalable systems) research group and works closley with <a href="">Orran Krieger</a> and the <a href="">Massachusettes Open Cloud</a>.</br></br>
+Research interests include distributed systems, cloud computing, virtualization and unikernels.'
 url:                 https://jmcadden.github.io
 baseurl:             ''
 paginate:            5
-version:             1.0.0
 gems: [jekyll-paginate]
