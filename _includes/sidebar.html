@@ -1,6 +1,6 @@
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.side == "open" %}checked{% endif %}> 
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
@@ -8,7 +8,7 @@
     <p class="justified">{{ site.description }}</p>
   </div>
 
-  <nav class="sidebar-nav">
+  <nav class="sidebar-nav layout-reverse sidebar-overlay">
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null %}

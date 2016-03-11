@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About Jim 
+layout: default
+title: About 
 ---
 <div class="blurb">
 Jim Cadden is a PhD canidate in Computer Science at <a

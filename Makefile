@@ -21,6 +21,10 @@ post: | $(TEMPLATE) $(POST)
 serve:
 	bundle exec jekyll serve
 
+draft:
+	bundle exec jekyll build --draft
+	bundle exec jekyll serve --draft
+
 update:
 	bundle update
 	
