@@ -8,7 +8,8 @@ highlighter: rouge
 exclude: [vendor]
 timezone: America/New_York
 permalink: pretty
-description: 'Jim Cadden is a PhD canidate in Computer Science at <a href="http://www.bu.edu/cs/">Boston University</a>. His interests include distributed systems, cloud computing, funk music and german shepherds. <a href="/info">[more info]</a>'
+description: ''
+#description: 'Jim Cadden is a PhD canidate in Computer Science at <a href="http://www.bu.edu/cs/">Boston University</a>. His interests include distributed systems, cloud computing, funk music and german shepherds. <a href="/info">[more info]</a>'
 url:  'https://jmcadden.github.io'
 baseurl:    ''
 paginate:   5
