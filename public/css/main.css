@@ -24,10 +24,10 @@ code, kbd, pre, samp {
     }
 
 .banner {
-    background: transparent url('https://dl.dropboxusercontent.com/u/11161963/background.png') 0 0 no-repeat fixed;
+    background: transparent url('https://dl.dropboxusercontent.com/u/11161963/deskw.png') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://dl.dropboxusercontent.com/u/11161963/background.png', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://dl.dropboxusercontent.com/u/11161963/deskw.png', sizingMethod='scale');
     height: 230px;
     width: 100%;
     margin-bottom: 3em;
