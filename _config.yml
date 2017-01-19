@@ -9,7 +9,7 @@ exclude: [vendor]
 timezone: America/New_York
 permalink: pretty
 #description: ''
-description: 'Jim Cadden is Ph.D. candidate in Computer Science studying at <a href="http://www.bu.edu/cs/">Boston University</a>. <br/><br/>His research focuses on system architectures for datacenters / cloud computing platforms. Additional interests include rock climbing, pop-philosophy, and vintage soul music.'
+description: 'Jim Cadden is a Computer Science PhD candidate studying at <a href="http://www.bu.edu/cs/">Boston University</a>. <br/><br/>My research focuses on <a href="https://github.com/sesa/ebbrt">system software architecture</a> for datacenters / cloud computing platforms. Additional interests include rock climbing, pop-philosophy, and <a href="https://www.youtube.com/watch?v=GFDEqcSAvVY&list=PL91abjRz-qK2OXR0XY_1OP2MZLT0G7mqH" target=_blank >vintage soul music</a>.'
     
 url:  'https://jmcadden.github.io'
 baseurl:    ''

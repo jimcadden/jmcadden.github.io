@@ -12,9 +12,9 @@ close friend and associate of the <a
 href="http://www.bu.edu/hic/research/massachusetts-open-cloud/">Massachusetts
 Open Cloud</a>.
 
+---
 
 ## Conference Publications & Posters
-
 Dan Schatzberg, James Cadden, Han Dong, Orran Krieger, and Jonathan Appavoo,
 EbbRT: A Framework for Building Per-Application Library Operating Systems", in
 proceedings of the 12th USENIX Symposium on Operating Systems Design and
@@ -25,8 +25,7 @@ Dan Schatzberg, James Cadden, Orran Krieger, and Jonathan Appavoo, ``A way
 forward: enabling operating system innovation in the cloud'', In Proceedings
 of the 6th USENIX conference on Hot Topics in Cloud Computing (HotCloud'14).
 
-#### Posters
-
+### Posters
 Dan Schatzberg, James Cadden, Orran Krieger, and Jonathan Appavoo, "POSTER: A
 Library OS for Cloud Computing", Poster at 2012 USENIX Annual Technical
 Conference, June 13-15, 2012, Boston, MA.
@@ -36,7 +35,6 @@ First Class Event-Driven Software Primitives", Poster at 2012 USENIX Annual
 Technical Conference, June 13-15, 2012, Boston, MA.
 
 ## Tech Reports & Miscellaneous
-
 Dan Schatzberg, James Cadden, Han Dong, Orran Krieger, Jonathan Appavoo,
 "EbbRT: A Customizable Operating System for Cloud Applications", BUCS
 Technical Reports;BUCS-TR-2015-007, Creation Date June 28th 2015 submitted as
@@ -62,6 +60,7 @@ Dan Schatzberg, James Cadden, Orran Krieger, Jonathan Appavoo "Total Order
 Broadcast for Fault Tolerant Exascale Systems", BUCS Technical
 Reports;BUCS-TR-2013-006, Dec 2012.
 
+---
 
 # Curriculum Vitae
 [Click here to download](../public/Cadden_CV.pdf)
