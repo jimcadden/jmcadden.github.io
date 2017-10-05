@@ -1,17 +1,8 @@
-name: Jim Cadden
-url: jmcadden.github.io
-title:  "Jim Cadden's Homepage"
-email: james.cadden@gmail.com 
-tagline: "Jim Cadden's Homepage"
+title: "James M Cadden"
 indextitle: 'All Posts'
 highlighter: rouge
 exclude: [vendor]
 timezone: America/New_York
 permalink: pretty
-#description: ''
-description: 'Jim Cadden is a Computer Science PhD candidate studying at <a href="http://www.bu.edu/cs/">Boston University</a>. <br/><br/>My research focuses on <a href="https://github.com/sesa/ebbrt">system software architecture</a> for datacenters / cloud computing platforms. Additional interests include rock climbing, pop-philosophy, and <a href="https://www.youtube.com/watch?v=GFDEqcSAvVY&list=PL91abjRz-qK2OXR0XY_1OP2MZLT0G7mqH" target=_blank >vintage soul music</a>.'
-    
 url:  'https://jmcadden.github.io'
 baseurl:    ''
-paginate:   5
-gems: [jekyll-paginate]

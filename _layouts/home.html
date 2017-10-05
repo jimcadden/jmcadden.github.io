@@ -1,33 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@jimcadden">
-  <meta property="og:type" content="profile">
-  <meta name="twitter:title" property="og:title" content="James Cadden">
-  <meta name="twitter:description" property="og:description"
-  content="Cloud Systems Researcher, PhD Candidatate, located in Boston, MA">
-  <meta property="og:url" content="http://jmcadden.github.io">
-  <meta name="twitter:image" property="og:image" content="http://jmcadden.github.io/avatar.jpg">
-  <title> {{ page.title }} </title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+{% include head.html %}
 <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?rd5re8">
-
-  <style>
-
+<style>
 .socicon-twitter:before { content: "\e08d"; }
 .socicon-github:before { content: "\e032"; }
 .socicon-linkedin:before { content: "\e04c"; }
@@ -40,12 +16,9 @@
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    color: #fff;
     background:
         linear-gradient(230deg, rgba(75, 207, 147, 0.85), rgba(75, 121, 207, 0.85)),
-        url(img/bg.jpg);
+        url({{ site.baseurl }}/public/bg.jpg);
     background-size:cover;
 }
 
@@ -78,7 +51,7 @@ a {
 }
 
 .avatar img {
-    width: 120px;
+    width: 220px;
     border-radius: 50%;
     display: block;
 }
@@ -153,21 +126,22 @@ h1 {
   <body class="layout-reverse">
     <div class="info" itemscope itemtype="http://schema.org/Person">
     <div class="avatar">
-        <img itemprop="image" alt="photo of James M. Cadden" src="img/avatar.jpg">
+        <img itemprop="image" alt="photo of James M. Cadden" src="{{ site.baseurl }}/public/cadden-avatar.png">
     </div>
     <h1 itemprop="name">James M. Cadden</h1>
     <ul itemprop="description" class="subtitle">
-        <li itemprop="jobTitle">Research Scientist</li>
-        <li>PhD Candidate</li>
-        <li>Software Engineer</li>
+        <li itemprop="jobTitle">Ph.D. Candidate</li>
+        <li>Cloud Research Scientist</li>
+        <li>Music Junkie</li>
     </ul>
     <ul class="social">
         <li><a class="socicon-mail" href="mailto:james.cadden@gmail.com"></a></li>
         <li><a class="socicon-github" href="https://github.com/jmcadden"></a></li>
         <li><a class="socicon-linkedin" href="https://www.linkedin.com/in/jimcadden/"></a></li>
-        <li><a class="socicon-medium" href="https://medium.com/@jimcadden"></a></li>
+        <li><a class="socicon-medium" href="https://medium.com/@jmcadden"></a></li>
         <li><a class="socicon-spotify" href="https://open.spotify.com/user/1274541199"></a></li>
     </ul>
     </div>
+  {% include foot.html %}
   </body>
 </html>

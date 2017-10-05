@@ -4,3 +4,4 @@ scratch/
 .bundle
 .sass-cache/
 .jekyll-metadata
+Gemfile.lock
