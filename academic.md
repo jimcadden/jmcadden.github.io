@@ -1,19 +1,23 @@
 ---
 layout: page
-title: Publications & CV
+title:  James Cadden's Academic Homepage
 ---
 
-James Cadden (Jim) is a PhD candidate in Computer Science at <a
+James (Jim) Cadden is a PhD candidate studying computer science at <a
 href="http://www.bu.edu/cs/">Boston University</a> under the advisement of <a
-href="https://www.cs.bu.edu/~jappavoo/">Jonathan Appavoo</a>. Jim is a member
+href="https://www.cs.bu.edu/~jappavoo/">Jonathan Appavoo</a> and <a href="">Orran Krieger</a>. Jim is a member
 of the <a href="http://sesa.github.io/">Scalable Elastic System Architecture (SESA)</a> research group and 
-the <a
+close associate of the <a
 href="http://www.bu.edu/hic/research/massachusetts-open-cloud/">Massachusetts
 Open Cloud</a>.
 
+
+### Curriculum Vitae:
+[Click here to download](../public/Cadden_CV.pdf)
+
 ---
 
-## Conference Publications & Posters
+# Conference Publications 
  Dan Schatzberg, James Cadden, Han Dong, Orran Krieger, and Jonathan Appavoo, 
  <a
    href="https://www.usenix.org/conference/osdi16/technical-sessions/presentation/schatzberg">"EbbRT: A Framework for Building Per-Application Library Operating Systems",</a>
@@ -27,7 +31,7 @@ Dan Schatzberg, James Cadden, Orran Krieger, and Jonathan
  cloud"</a>, In Proceedings of the 6th USENIX conference on Hot
   in Cloud Computing (HotCloud'14). 
 
-### Posters
+## Posters
 Dan Schatzberg, James Cadden, Orran Krieger, and Jonathan Appavoo, "POSTER: A
 Library OS for Cloud Computing", Poster at 2012 USENIX Annual Technical
 Conference, June 13-15, 2012, Boston, MA.
@@ -36,7 +40,7 @@ Dan Schatzberg, James Cadden, Orran Krieger, and Jonathan Appavoo, "POSTER:
 First Class Event-Driven Software Primitives", Poster at 2012 USENIX Annual
 Technical Conference, June 13-15, 2012, Boston, MA.
 
-## Tech Reports & Miscellaneous
+## Technical Reports 
 Dan Schatzberg, James Cadden, Han Dong, Orran Krieger, Jonathan Appavoo,
 "EbbRT: A Customizable Operating System for Cloud Applications", BUCS
 Technical Reports;BUCS-TR-2015-007, Creation Date June 28th 2015 submitted as
@@ -61,9 +65,4 @@ appear at the OS/R Workshop, DOE, Oct 4-5, 2012, Washington, DC.
 Dan Schatzberg, James Cadden, Orran Krieger, Jonathan Appavoo "Total Order
 Broadcast for Fault Tolerant Exascale Systems", BUCS Technical
 Reports;BUCS-TR-2013-006, Dec 2012.
-
----
-
-# Curriculum Vitae
-[Click here to download](../public/Cadden_CV.pdf)
 
