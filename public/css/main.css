@@ -1,29 +1,70 @@
+/* MAIN CSS */
 body{
-  font-size: 94%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  color: black;
+  font-family: 'Georgia', serif; 
   -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  min-width: 420px;
 }
-h5,h4,h3,h2,h1 {
+
+h2,h1,strong {
   font-family: 'SanchezSlab Semibold', Georgia, serif;
+  color: #031f2e
 }
+
 code, kbd, pre, samp {
   font-family: 'Nimbus', Monaco, monospace;
   text-rendering: optimizeLegibility;
   font-size:90%;
 }
+
+table{
+  font-family: "PT Sans";
+}
+
+p, ul {
+  margin: 0; 
+  padding: 0; 
+}
+
+a{
+  color: #129fea;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+  background-color:#ffffcc;
+}
+
+.highlight {
+  background-color:#ffffb2;
+  padding-left:5px;
+}
+
+.bold {
+  font-family: 'SanchezSlab Semibold', Georgia, serif;
+  font-weight: bold;
+}
+
 .justified {
-      text-align: justify;
-    }
+  text-align: justify;
+}
 
 .right {
-      text-align: justify;
-    }
+  text-align: right;
+}
 
 .center {
-      text-align: justify;
-    }
+  text-align: center;
+}
+
+hr {
+    padding-top: 1.5em;
+    margin-bottom: 4.5em;
+    height: 0px;
+    border-width: 0px;
+    border-bottom: 4px solid #e5e9ed;
+}
 
 .banner {
     background: transparent url('../desktop.png') 0 no-repeat;
@@ -35,11 +76,6 @@ code, kbd, pre, samp {
     margin-bottom: 1em;
     display: table;
     opacity: 0.8;
-}
-
-.banner h1{
-   display: inline-block;
-   background: #fff;
 }
 
 .banner-head {
@@ -58,56 +94,65 @@ code, kbd, pre, samp {
     margin-bottom: 0rem;
 }
 
-.content table {
-    font-family: "PT Sans";
+.default .wrapper {
+    position: relative;
+    max-width: 1178px;
+    margin: auto;
 }
 
-.content h2 {
-  margin-top: 3rem;
+.content {
+    font-size: 16px;
+    line-height: 30px;
+    color: #444;
+    max-width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FFFFFF;
 }
 
-.content h3 {
-  margin-top: 1.5rem;
+.content h1 {
+
 }
 
-.message {
-    background-color: rgba(255, 150, 50, 0.18);
+.content h2, h3 {
+  text-transform: uppercase;
+}
+
+.content h2, h3, h4, h5 {
+  margin-bottom: 0.75em;
+  line-height:1;
+}
+
+.content p{ 
+    margin-bottom: 1.5em;
+    padding-right: 30px;
+}
+.content ul{
+    margin-bottom: 1.5em;
+    margin-left: 2em;
 }
 
 .content blockquote {
-    background-color: rgba(204, 204, 204, 0.15);
+    margin: 0 auto 1.5em ;
+    width: 70%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 0px;
+    border-top: 2px solid #e5e9ed;
+    border-bottom: 2px solid #e5e9ed;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 17px;
+    color: #222;
+    line-height: 1.67;
+    background-color: #fbfcfc;
 }
 
-a:hover {
-  text-decoration:none;
-}
-
-.content a {
-  color: rgba(153, 51, 51, 0.85);
-}
-
-.content a:hover {
-  color: rgba(153, 51, 51, 0.85);
-  border-bottom: 1px dotted;
-}
-
-.page {
-    margin-left: 20px;
-    margin-right: 20px;
+.page-title, .post-title {
 
 }
 
-.post a {
-  border-bottom: 1px dotted;
-}
+.page-body, .post-body {
 
-.post a:hover {
-  color: rgba(153, 51, 51, 0.85);
-  border-bottom: 1px solid;
-  text-decoration:none;
 }
-
-.related-posts li a:hover {
-  color: rgba(153, 51, 51, 0.85);
-}
-

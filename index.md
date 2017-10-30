@@ -1,6 +1,7 @@
 ---
 layout: home
-title: James M. Cadden | Homepage
-description: Ph.D candidate, cloud research scientist, vintage music junkie, located in Boston, Massachusetts.
+title: James M. Cadden 
+description: James Cadden is a cloud researcher, PhD candidate, and huge music geek living in Boston, MA.
 ---
 
+< [*CS 451/651 Distributed Systems, Spring 2018*](cs451) >
