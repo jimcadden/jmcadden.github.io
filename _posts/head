@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "__title__"
+date:   __date__
+categories: "space seperated string"
+published: true/false
+permalink: anything-you-want
+---
+
+For permalink, Url will be http://example.co/anything-you-want.
+
+
+YEAR-MONTH-DAY-title.md
+2017-01-01-newyears.md
+
+Use the post_url tag to link to other posts without having to worry about the
+URLs breaking when the site permalink style changes: 
+
+[Name of Link]({{ site.baseurl }}{% post_url 2010-07-21-name-of-post %})
+

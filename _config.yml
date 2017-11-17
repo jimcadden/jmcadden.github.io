@@ -1,8 +1,9 @@
 title: "James M Cadden"
 indextitle: 'All Posts'
-highlighter: rouge
-exclude: [vendor]
 timezone: America/New_York
 permalink: pretty
+exclude: [vendor]
 url:  'https://jmcadden.github.io'
 baseurl:    ''
+highlighter: rouge
+markdown: kramdown

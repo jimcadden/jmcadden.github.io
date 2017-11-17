@@ -4,24 +4,31 @@ body{
   -webkit-font-smoothing: antialiased;
   text-size-adjust: none;
   min-width: 420px;
+  word-wrap: break-word;
+  font-size: 14px;
+  background: #fff;
 }
 
 h2,h1,strong {
   font-family: 'SanchezSlab Semibold', Georgia, serif;
-  color: #031f2e
+  color: #031f2e;
+  border-bottom: 1px solid #eaecef;
 }
 
 code, kbd, pre, samp {
-  font-family: 'Nimbus', Monaco, monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, 'Nimbus', Monaco, monospace;
+  padding: 0.2em 0.2em;
+  background-color: #f0f0f0;
   text-rendering: optimizeLegibility;
-  font-size:90%;
+	line-height:1.45;
+  font-size:14px;
 }
 
 table{
   font-family: "PT Sans";
 }
 
-p, ul {
+p, ul, ol {
   margin: 0; 
   padding: 0; 
 }
@@ -36,7 +43,7 @@ a:hover {
   background-color:#ffffcc;
 }
 
-.highlight {
+.highlighter {
   background-color:#ffffb2;
   padding-left:5px;
 }
@@ -102,14 +109,16 @@ hr {
 
 .content {
     font-size: 16px;
-    line-height: 30px;
-    color: #444;
+  	color: #1c2024;
     max-width: 800px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
     border-style: solid;
     border-width: thin;
     border-color: #FFFFFF;
+
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 
 .content h1 {
@@ -126,15 +135,18 @@ hr {
 }
 
 .content p{ 
+    line-height: 30px;
     margin-bottom: 1.5em;
     padding-right: 30px;
 }
-.content ul{
+.content ul, .content ol{
+    line-height: 30px;
     margin-bottom: 1.5em;
     margin-left: 2em;
 }
 
 .content blockquote {
+    line-height: 30px;
     margin: 0 auto 1.5em ;
     width: 70%;
     padding-top: 30px;
