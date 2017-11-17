@@ -12,7 +12,6 @@ body{
 h2,h1,strong {
   font-family: 'SanchezSlab Semibold', Georgia, serif;
   color: #031f2e;
-  border-bottom: 1px solid #eaecef;
 }
 
 code, kbd, pre, samp {
@@ -121,8 +120,8 @@ hr {
     border-right: 1px solid #ddd;
 }
 
-.content h1 {
-
+.content h1, h2 {
+  border-bottom: 1px solid #eaecef;
 }
 
 .content h2, h3 {
