@@ -161,7 +161,7 @@ hr {
 }
 
 .page-title, .post-title {
-
+  border-bottom: 0px; 
 }
 
 .page-body, .post-body {
