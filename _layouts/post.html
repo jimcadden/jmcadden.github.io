@@ -3,7 +3,31 @@ layout: default
 ---
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-subtitle">
+    {% if page.date %}
+      <div class="post-date">Published: 
+        <span class="date">{{page.date | date_to_string }}</span>
+      </div>
+    {% endif %}
+    {% if page.update %} 
+      <div class="post-update">Updated: 
+        <span class="date">{{page.update | date_to_string }}</span>
+      </div>
+    {% endif %}
+  </div>
   <div class="post-body">
   {{ content }}
   </div>
 </div>
+
+
+<hr/>
+<ul class="related">
+  {% for post in site.posts %}
+  {% if post.category == page.category and post.title != page.title and post.hidden != true %}
+    <li>
+      <a href="{{ post.url }}"><span class="date">{{post.date | date_to_string }}</span> | {{ post.title }}</a> 
+    </li>
+  {% endif %}
+  {% endfor %}
+</ul>
