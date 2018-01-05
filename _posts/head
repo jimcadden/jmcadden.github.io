@@ -6,6 +6,7 @@ categories: "space seperated string"
 published: true/false
 permalink: anything-you-want
 hidden: true
+description: This will show up in search synopsis links
 ---
 For permalink, Url will be http://example.co/anything-you-want.
 
