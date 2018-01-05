@@ -97,7 +97,10 @@ hr {
     font-size: 17px;
   	color: #1d2129;
     max-width: 1000px;
-    padding: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-style: solid;
     border-width: thin;
     border-left: 1px solid #ddd;
@@ -198,4 +201,13 @@ hr {
 }
 
 .page-body, .post-body {
+}
+
+.footer{
+  width:700px;
+  color: #ddd;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
 }

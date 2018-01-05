@@ -1,7 +1,7 @@
 ---
 layout: home
 title: James M. Cadden 
-description: James is a PhD candidate doing cloud computing / operating system research at Boston University in 2018.
+description: James is a PhD abd. doing cloud + OS research at Boston University.
 ---
 
 < [*CS 451/651 Distributed Systems, Spring 2018*](cs451) >

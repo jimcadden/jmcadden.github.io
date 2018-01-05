@@ -122,3 +122,8 @@ h1 {
 .home-content a:hover{
   text-decoration:underline;
 }
+
+.footer {
+  display:none;
+}
+
