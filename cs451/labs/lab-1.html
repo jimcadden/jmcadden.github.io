@@ -373,7 +373,7 @@ the: 154024</pre>
 
 		<p>
 		When a worker starts, it sends a Register RPC to the master.
-		<tt>mapreduce.go</tt> already implements the master's
+		<tt>master.go</tt> already implements the master's
 		<tt>Master.Register</tt> RPC handler for you, and passes the
 		new worker's information to <tt>mr.registerChannel</tt>.  Your
 		<tt>schedule</tt> should process new worker registrations by
