@@ -1,5 +1,9 @@
 ---
 title: Syntax Example
+date:  2018-01-01
+published: true/false
+categories: "space seperated string"
+description: This will show up in search synopsis links
 reveal_transition: slide 
 reveal_slideNumber: true
 ---
@@ -15,6 +19,14 @@ Using default `jekyll-reveal` template
 * Some
 * List
 * Items
+
+==
+
+### Another Title
+
+* Page   
+* Down
+* List
 
 ---
 
