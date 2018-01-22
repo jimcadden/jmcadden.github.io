@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "__title__"
-date:   __date__
-categories: "space seperated string"
+title: Title 
+date:  2018-01-01
+categories: "space separated string"
 published: true/false
 permalink: anything-you-want
 hidden: true
