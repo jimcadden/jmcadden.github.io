@@ -33,14 +33,14 @@ While it is OK to agree with the authors, you should not copy their language dir
 ### II. Approach 
 + Provide a concise **thesis statement** that captures the authors' approch and solution
 + Describe at least one experimental hypothesis that supports this thesis, and how
-  it was validated through the experiments described in the paper (when applicable).
+  it was validated through the results provided in the paper (when applicable).
 
 ### III. Relationship
-+ Observe one way this paper relates to one-or-many of the papers we've already covered this semester.
++ Observe one way this paper relates to one-or-many of the papers we've covered this semester.
 
 ### IV. Impression 
 + What is your major take-away(s) from reading this paper?
-+ Was there one thing in particular you found surprising, interesting, far-fetched or confusing? (give as many as you'd like)
++ Was there one thing in particular you found surprising, interesting, far-fetched or confusing? (provide as many as you'd like)
 + Finally, rate the paper on a scale [1-10] (10 being best) and briefly explain why.
  
 
@@ -55,7 +55,7 @@ While it is OK to agree with the authors, you should not copy their language dir
 > the additionals requirements of partitioning and distributing the work,
 > coordinating task amoung workers, load balancing,  and dealing with
 > unforseen failures. These requirements add substantial complexity, and
-> requires experties outside that of the average develolper.  One a word, this
+> requires experties outside that of the average develolper.  This
 > is a problem of _programmability_.
 > 
 > ### II. Approach 
@@ -63,8 +63,8 @@ While it is OK to agree with the authors, you should not copy their language dir
 > can be alleviated by adopting a highly-restricted programming models, which
 > enables application logic to be easily partitioned, coordination and
 > replicated across pools of generic workers.  For this to be realized, the
-> underlying platform must exhibit the the potential for large scale
-> computations. In the experimentation section of the paper, the author's
+> underlying platform must exhibit the capability for large scale
+> workloads. In the experimentation discussined in the paper, the author's
 > demonstrated the MapReduce platform sorting terebytes of data across 3600
 > processors.
 > 
