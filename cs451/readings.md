@@ -41,11 +41,11 @@ the evening _prior_ to each lecture.
 
 ### II. Approach 
 + Provide a concise **thesis statement** that captures the authors' approch and solutions
-+ Identify one-or-more of the author's experimental hypotheses that support this thesis, and describe how/if
-  it wad validated through the results described in the paper (when applicable).
++ Identify one or two of the author's experimental hypotheses that support this thesis, and describe how/if
+  they were validated by the results described in the paper (when applicable).
 
 ### III. Relation
-+ Observe how this paper relates to one (or multiple) of the papers we've already covered this semester. Just one or two observation will do, not need to list them all.
++ Observe how this paper relates to one (or multiple) of the papers we've already covered this semester. Just one or two observations will do, not need to list them all.
 
 ### IV. Impression 
 + What are your major take-away(s) from reading this paper?
