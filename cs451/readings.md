@@ -10,14 +10,14 @@ the evening prior to each lecture.
 
 #### Instructions:
 1. Responses should be brief, roughly a paragraph in length for each of
-   four sections detailed below.
+   sections detailed below.
 1. Responses should be entirely in your own words, based on your own impressions.
 While it is OK to agree with the authors, you should not copy their language directly. 
 
 #### Submitting
 + Submit your assessment in `.txt` format using [gsubmit](https://www.cs.bu.edu/teaching/hw/gsubmit/) on one of the csa* machines.
 + Filenames should be in the format `lec[N].txt`, where `N` is the corresponding lecture number.
-+ **Assessnent must submitted by 10:00pm**, the evening _before_ the corresponding lecture.
++ Assessments must **submitted by 10:00pm**, the evening _before_ the corresponding lecture.
 
 > ```
 > // Example upload
@@ -31,7 +31,7 @@ While it is OK to agree with the authors, you should not copy their language dir
 (e.g., _performance, security, programmability, correctness_, etc.).
 
 ### II. Approach 
-+ Provide a concise **thesis statement** that captures the authors' approch a solution
++ Provide a concise **thesis statement** that captures the authors' approch and solution
 + Describe at least one experimental hypothesis that supports this thesis, and how
   it was validated through the experiments described in the paper (when applicable).
 
@@ -41,7 +41,7 @@ While it is OK to agree with the authors, you should not copy their language dir
 ### IV. Impression 
 + What is your major take-away(s) from reading this paper?
 + Was there one thing in particular you found surprising, interesting, far-fetched or confusing? (give as many as you'd like)
-+ Finally, rate the paper on a scale [1-10] (10 being best) with a briefly explain of why.
++ Finally, rate the paper on a scale [1-10] (10 being best) and briefly explain why.
  
 
 # Example Submission 
@@ -53,10 +53,10 @@ While it is OK to agree with the authors, you should not copy their language dir
 > ### I. Problem 
 > Workloads that can benifit from many concurrent processors carry with it the
 > the additionals requirements of partitioning and distributing the work,
-> coordinating task amoung workers, load balancing,  and dealing with unforseen failures. These
-> requirements add substantial complexity, and requires experties outside that
-> of the average develolper.  One a word, this is a problem of
-> **_programability_**.
+> coordinating task amoung workers, load balancing,  and dealing with
+> unforseen failures. These requirements add substantial complexity, and
+> requires experties outside that of the average develolper.  One a word, this
+> is a problem of _programability_.
 > 
 > ### II. Approach 
 > Much of the complexities introduced by large-scale distributed computation
