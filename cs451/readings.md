@@ -56,7 +56,7 @@ While it is OK to agree with the authors, you should not copy their language dir
 > coordinating task amoung workers, load balancing,  and dealing with
 > unforseen failures. These requirements add substantial complexity, and
 > requires experties outside that of the average develolper.  One a word, this
-> is a problem of _programability_.
+> is a problem of _programmability_.
 > 
 > ### II. Approach 
 > Much of the complexities introduced by large-scale distributed computation
