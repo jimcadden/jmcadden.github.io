@@ -4,19 +4,28 @@ title:  CS451/651 - Paper Reading Assessment
 description: Paper Reading Assessment for cs451/651
 ---
 
-This semester you will be responsible for writing a brief assessment
-**for each paper** we cover. You should submitted your assessment *by 10pm*,
-the evening prior to each lecture.  
+This semester you will be responsible for completing a brief written assessment
+**for each paper** that you've been assigned. Assessments should be submitted *by 10pm*,
+the evening _prior_ to each lecture.  
 
-#### Instructions:
-1. Responses should be brief, roughly a paragraph in length for each of
-   sections detailed below.
-1. Responses should be entirely in your own words, based on your own impressions.
-While it is OK to agree with the authors, you should not copy their language directly. 
+### Instructions:
+1. Your assessment should touch upon each the following topics: **the
+   problem, the approach, the relation, and your impression**. 
+1. Your response should be concise, roughly one paragraph in length per topic. 
+1. Responses should be entirely in your own words, based on your own impressions from the reading. 
+(While it is OK to agree with the authors, you should not copy their language directly!)
 
-#### Submitting
-+ Submit your assessment in `.txt` format using [gsubmit](https://www.cs.bu.edu/teaching/hw/gsubmit/) on one of the csa* machines.
-+ Filenames should be in the format `lec[N].txt`, where `N` is the corresponding lecture number.
+### Tips
++ I've provided some guiding pointers for each topic blow, plus an example for MapReduce below. 
++ Take your time while reading, and think about the questions as you. It takes an
+  experienced PhD student 2-3 hours to fully read a paper. Don't rush!
++ Compared to reading, the writing should be relatively quick. If you are spending
+  more than 30 minutes doing the assessment, you're likely writing too much! 
+
+## Submitting
++ Submit your assessment in all-text (`.txt`) format using [gsubmit](https://www.cs.bu.edu/teaching/hw/gsubmit/) on one of the csa* machines.
++ Filenames should be in the format `lec[N].txt`, where `N` is the corresponding lecture number (see the lecture calendar).
++ Always use `cs451` as the class for the gsubmit command, even if you are enrolled in `cs651`
 + Assessments must **submitted by 10:00pm**, the evening _before_ the corresponding lecture.
 
 > ```
@@ -27,21 +36,21 @@ While it is OK to agree with the authors, you should not copy their language dir
 # Paper Assessment  
 ### I. Problem 
 + Give a general problem statement for this work.
-+ Select a _single word_ that describes the general area this problem (and it's solutions) belongs in.
++ Is there a _single word_ that describes the general problem-area this paper belongs too?
 (e.g., _performance, security, programmability, correctness_, etc.).
 
 ### II. Approach 
-+ Provide a concise **thesis statement** that captures the authors' approch and solution
-+ Describe at least one experimental hypothesis that supports this thesis, and how
-  it was validated through the results provided in the paper (when applicable).
++ Provide a concise **thesis statement** that captures the authors' approch and solutions
++ Identify the author's experimental hypotheses that support this thesis, and describe how/if
+  they were validated through the results described in the paper (when applicable).
 
-### III. Relationship
-+ Observe one way this paper relates to one-or-many of the papers we've covered this semester.
+### III. Relation
++ Observe how this paper relates to one (or multiple) of the papers we've already covered this semester. 
 
 ### IV. Impression 
-+ What is your major take-away(s) from reading this paper?
-+ Was there one thing in particular you found surprising, interesting, far-fetched or confusing? (provide as many as you'd like)
-+ Finally, rate the paper on a scale [1-10] (10 being best) and briefly explain why.
++ What are your major take-away(s) from reading this paper?
++ Was there something in particular that you found surprising, interesting, far-fetched, or confusing? (list as many as you'd like)
++ Finally, I'd like you to rate the paper on a scale [1-10] (10 being best) and briefly explain why.
  
 
 # Example Submission 
