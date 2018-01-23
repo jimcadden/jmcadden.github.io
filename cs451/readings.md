@@ -4,19 +4,20 @@ title:  CS451/651 - Paper Reading Assessment
 description: Paper Reading Assessment for cs451/651
 ---
 
-You will be responsible for completing a brief assessment **for each
-paper** we cover this semester. Your response should be submitted *by 10pm*,
+This semester you will be responsible for writing a brief assessment
+**for each paper** we cover. You should submitted your assessment *by 10pm*,
 the evening prior to each lecture.  
 
 #### Instructions:
-1. Responses should be in your own words, and based on your own impression.
+1. Responses should be brief, roughly a paragraph in length for each of
+   four sections detailed below.
+1. Responses should be entirely in your own words, based on your own impressions.
 While it is OK to agree with the authors, you should not copy their language directly. 
-2. Each responses should be brief, a paragraph being the maximum length.
 
 #### Submitting
-+ Submit your assessment in `.txt` format, using `gsubmit 451` on a csa* machine
-+ Filenames should be in the formate `lec[N].txt`, where `N` is the corresponding lecture number.
-+ **Reponses must submitted by 10:00pm**, the evening _before_ the corresponding lecture.
++ Submit your assessment in `.txt` format using [gsubmit](https://www.cs.bu.edu/teaching/hw/gsubmit/) on one of the csa* machines.
++ Filenames should be in the format `lec[N].txt`, where `N` is the corresponding lecture number.
++ **Assessnent must submitted by 10:00pm**, the evening _before_ the corresponding lecture.
 
 > ```
 > // Example upload
@@ -25,23 +26,22 @@ While it is OK to agree with the authors, you should not copy their language dir
 
 # Paper Assessment  
 ### I. Problem 
-+ Provide a general problem statement for this work.
-+ Using a _single word_, describes the general space that the problem (& solutions) belongs 
++ Give a general problem statement for this work.
++ Select a _single word_ that describes the general area this problem (and it's solutions) belongs in.
 (e.g., _performance, security, programmability, correctness_, etc.).
 
 ### II. Approach 
-+ Provide a concise **thesis statement** that describes papers approach
-   towards the problem.
++ Provide a concise **thesis statement** that captures the authors' approch a solution
 + Describe at least one experimental hypothesis that supports this thesis, and how
-  it was validated in the experiments described in the paper (when applicable).
+  it was validated through the experiments described in the paper (when applicable).
 
 ### III. Relationship
-+ Observe a way this paper relates to one-or-many of the papers we've already covered this semester.
++ Observe one way this paper relates to one-or-many of the papers we've already covered this semester.
 
 ### IV. Impression 
-+ What are your major take-away(s) from reading this paper. 
-+ Was there something that you found particularly surprising, facinating, unbelievable or confusing? (provide as many as you'd like)
-+ Finally, rate the paper on a scale [1-10] (10 being best) and briefly explain your reasoning.
++ What is your major take-away(s) from reading this paper?
++ Was there one thing in particular you found surprising, interesting, far-fetched or confusing? (give as many as you'd like)
++ Finally, rate the paper on a scale [1-10] (10 being best) with a briefly explain of why.
  
 
 # Example Submission 
@@ -51,22 +51,22 @@ While it is OK to agree with the authors, you should not copy their language dir
 > MapReduce: Simplied Data Processing on Large Clusters
 > 
 > ### I. Problem 
-> Workloads that require many concurrent processors to complete carry
-> additionals requirements to complete, namely, distributing the data across
-> machines, coordinating the workers, and dealing with failure. These
-> requirements add substantial and unforseen burdens onto the developer, the
-> solutions to which require knowledge outside a general level of programming
-> expertise.  One word, **_Programability_**
+> Workloads that can benifit from many concurrent processors carry with it the
+> the additionals requirements of partitioning and distributing the work,
+> coordinating task amoung workers, load balancing,  and dealing with unforseen failures. These
+> requirements add substantial complexity, and requires experties outside that
+> of the average develolper.  One a word, this is a problem of
+> **_programability_**.
 > 
 > ### II. Approach 
-> Much of the complexities of large-scale distributed programming can be
-> alleviated by adopting a highly-restricted programming models, and a
-> corresponding execution platform that manages distribution, communication
-> and failures cases for each job.
->
-> For data-intensive workloads the underlying platform must exhibit an
-> appropriate degree of scale. In the experimentation section of the paper,
-> the author's demonstrated the MapReduce platform scales to 
+> Much of the complexities introduced by large-scale distributed computation
+> can be alleviated by adopting a highly-restricted programming models, which
+> enables application logic to be easily partitioned, coordination and
+> replicated across pools of generic workers.  For this to be realized, the
+> underlying platform must exhibit the the potential for large scale
+> computations. In the experimentation section of the paper, the author's
+> demonstrated the MapReduce platform sorting terebytes of data across 3600
+> processors.
 > 
 > ### III. Relationship
 > Not yet applicable (first paper!)
@@ -74,6 +74,6 @@ While it is OK to agree with the authors, you should not copy their language dir
 > ### IV. Impression 
 > By enforcing a restrictive programming model, the underlying platform can
 > rely on guarantees that simplifies its target objective, which, in turn, can
-> enable great functionality advantages for the users of the platform.  My
-> rating is a 10 -- the paper presents an easy to understand idea that had an
-> immediate and lasting impact on the fields of Big Data & Cloud Computing.
+> enable functionality advantages for the users of the platform.  This paper
+> presents an easy to understand idea that had an immediate and lasting impact
+> on the fields of Big Data & Cloud Computing. My rating is a 9.
