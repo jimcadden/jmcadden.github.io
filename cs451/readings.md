@@ -11,15 +11,15 @@ the evening _prior_ to each lecture.
 ### Instructions:
 1. Your assessment should touch upon each the following topics: **the
    problem, the approach, the relation, and your impression**. 
-1. Your response should be concise, roughly one paragraph in length per topic. 
+1. Your response should be short and concise, roughly one paragraph in length per topic. 
 1. Responses should be entirely in your own words, based on your own impressions from the reading. 
 (While it is OK to agree with the authors, you should not copy their language directly!)
 
 ### Tips
-+ I've provided some guiding pointers for each topic blow, plus an example for MapReduce below. 
-+ Take your time while reading, and think about the questions as you. It takes an
-  experienced PhD student 2-3 hours to fully read a paper. Don't rush!
-+ Compared to reading, the writing should be relatively quick. If you are spending
++ I've provided a starting point for each topic below, plus an example for MapReduce. 
++ Take your time while reading, and think about the questions as you. It can take an
+  experienced PhD student 2-3 hours minimum to fully read a paper. Don't rush!
++ The writing process should be relatively quick. If you are spending
   more than 30 minutes doing the assessment, you're likely writing too much! 
 
 ## Submitting
@@ -41,15 +41,15 @@ the evening _prior_ to each lecture.
 
 ### II. Approach 
 + Provide a concise **thesis statement** that captures the authors' approch and solutions
-+ Identify the author's experimental hypotheses that support this thesis, and describe how/if
-  they were validated through the results described in the paper (when applicable).
++ Identify one-or-more of the author's experimental hypotheses that support this thesis, and describe how/if
+  it wad validated through the results described in the paper (when applicable).
 
 ### III. Relation
-+ Observe how this paper relates to one (or multiple) of the papers we've already covered this semester. 
++ Observe how this paper relates to one (or multiple) of the papers we've already covered this semester. Just one or two observation will do, not need to list them all.
 
 ### IV. Impression 
 + What are your major take-away(s) from reading this paper?
-+ Was there something in particular that you found surprising, interesting, far-fetched, or confusing? (list as many as you'd like)
++ Was there something in particular that you found surprising, interesting, far-fetched, or confusing? (give as many as you'd like)
 + Finally, I'd like you to rate the paper on a scale [1-10] (10 being best) and briefly explain why.
  
 
