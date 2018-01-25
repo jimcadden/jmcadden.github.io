@@ -24,7 +24,7 @@ the evening _prior_ to each lecture.
 
 ## Submitting
 + Submit your assessment in all-text (`.txt`) format using [gsubmit](https://www.cs.bu.edu/teaching/hw/gsubmit/) on one of the csa* machines.
-+ Filenames should be in the format `lec[N].txt`, where `N` is the corresponding lecture number (see the lecture calendar).
++ Filenames should be in the format `lec[N].txt`, where `[N]` is the corresponding lecture number (see the [lecture calendar](http://jmcadden.github.io/cs451/calendar)).
 + Always use `cs451` as the class for the gsubmit command, even if you are enrolled in `cs651`
 + Assessments must **submitted by 10:00pm**, the evening _before_ the corresponding lecture.
 
