@@ -34,10 +34,10 @@ There are two options for the project:
 
 All projects includes both a written deliverable and a live presentation
 (although the lengths of each vary).  **All projects must be gain prior approval by the course
-instructor** Come to office hours to discus your ideas. A written proposal (one per team) must be submitted to <jmcadden@bu.edu> no later than March 30th (the sooner the better!).
+instructor** Come to office hours to discus your ideas. A written proposal (one submission per team) must be sent to <jmcadden@bu.edu>, no later than March 30th -- but the sooner the better!
 
 <p class="bold centered highlighter">
-> **NOTE**: Lectures will largely focus on the _post-cryptocurrency_ applicability of blockchains, so I highly recommend that your proposed projects **avoids** a focus _entirely_ about cryptocurrencies. 
+Lectures will largely focus on the <i>post-cryptocurrency</i> applicability of blockchains, so I highly recommend that your proposed projects avoids a focus <i>entirely</i> about currency. 
 </p>
 
 # Option One -  Survey Paper & Talk
