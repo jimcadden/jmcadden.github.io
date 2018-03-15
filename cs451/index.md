@@ -16,6 +16,7 @@ All course announcements will be released via <a href="https://piazza.com/class/
 ### Quick Links
 +  [CS 451/651 Lecture Calendar](calendar)
 +  [CS 451/651 Piazza Page](https://piazza.com/class/j8m4bk9ob3o2v5)
++  [CS 651 Project Page](grad)
 
 # Course Information
 This course meets weekly on Tuesdays and Thursdays from 9:30am to 10:45am in
