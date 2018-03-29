@@ -6,7 +6,7 @@ description: Project Details for CS651, Spring 2018
 
 ### Due Dates:
 
-Project Proposal (one per team): **March 30**
+Written Proposal (one per team): **March 30**
 
 Team Talks: **April 26**
 
