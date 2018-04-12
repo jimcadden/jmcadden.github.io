@@ -101,24 +101,32 @@ due dates and exam dates will be posted on the course calendar page.
 Updates to the schedule will be made throughout the semester and all changes will
 be also announced via Piazza.  
 
-### Grade Breakdown
-> Programming Labs: 50%  Paper Reading: 15%   
-> Midterm Exam: 15%   Final Exam: 20%  
-
 ### CS651 Additional Requirements 
 For graduate credit for this course (e.g., individual enrolled in CS651)
 you are required to complete **graduate semester projec** in addition to the regular
 assignments and exams.  Detail and options for the project will be discussed
-once the course is underway. 
+once the course is underway. **The final written exam will be option for 651
+students (for extra credit).** 
+
+## Grade Breakdown
+
+<p class="centered highlighter">
+Bonus credit is applied <i><b>after</b></i> the final grade has been calculated, meaning that <b>you will not be penalized</b> for skipping the optional assignments. The bonus credit can only improve your semester grade.  </p>
+
+#### CS451 Breakdown:
+> Programming Labs: 50%  
+> Paper Reading: 15%  
+> Midterm Exam: 15%   
+> Final Exam: 20%  
+> Project (OPTIONAL): +15% Bonus
 
 
-
-<!--
-> ## Additional Resources
-+ [Distributed systems for fun and profit](http://book.mixu.net/distsys/index.html)
-+ <http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html>
-+ <http://muratbuffalo.blogspot.com/2015/12/my-distributed-systems-seminars-reading.html>
--->
+#### CS651 Breakdown:
+> Programming Labs: 50%  
+> Paper Reading: 15%  
+> Midterm Exam: 15%   
+> Project: 20%  
+> Final Exam (OPTIONAL): +15% Bonus
 
 
 # Academic Honesty
